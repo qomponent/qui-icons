@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <head>
+    <title>Icon web component demo</title>
+    <script type="module" src="./qui-icons.js"></script>
+    <style>
+        .row {
+            display: flex;
+            align-items: baseline;
+        }
+        .col {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    </style>
+
+  </head>
+  <body>
+    <h1>Icon</h1>
+        <div class="col">
+            <div>MDI Icons. see <a href="https://mdisearch.com/">https://mdisearch.com/</a></div>
+            <div class="row">
+                <mdi-icon icon="account" size="tiny"></mdi-icon>
+                <mdi-icon icon="account" size="small"></mdi-icon>
+                <mdi-icon icon="account"></mdi-icon>
+                <mdi-icon icon="account" size="large"></mdi-icon>
+                <mdi-icon icon="account" size="50px" color="red"></mdi-icon>
+            </div>
+            <hr/>
+            <div>Font awesome solid Icons. see <a href="https://fontawesome.com/search?o=r&m=free/">https://fontawesome.com/</a></div>
+            <div class="row">
+                <fas-icon icon="user" size="tiny"></fas-icon>
+                <fas-icon icon="user" size="small"></fas-icon>
+                <fas-icon icon="user"></fas-icon>
+                <fas-icon icon="user" size="large"></fas-icon>
+                <fas-icon icon="user" size="50px" color="red"></fas-icon>
+            </div>
+            <div>Font awesome regular Icons. see <a href="https://fontawesome.com/search?o=r&m=free/">https://fontawesome.com/</a></div>
+            <div class="row">
+                <far-icon icon="clock" size="tiny"></far-icon>
+                <far-icon icon="clock" size="small"></far-icon>
+                <far-icon icon="clock"></far-icon>
+                <far-icon icon="clock" size="large"></far-icon>
+                <far-icon icon="clock" size="50px" color="red"></far-icon>
+            </div>
+            <div>Font awesome brand Icons. see <a href="https://fontawesome.com/search?o=r&m=free/">https://fontawesome.com/</a></div>
+            <div class="row">
+                <fab-icon icon="redhat" size="tiny"></fab-icon>
+                <fab-icon icon="redhat" size="small"></fab-icon>
+                <fab-icon icon="redhat"></fab-icon>
+                <fab-icon icon="redhat" size="large"></fab-icon>
+                <fab-icon icon="redhat" size="50px" color="#ee0000"></fab-icon>
+            </div>
+            
+        </div>
+  </body>
+</html>
