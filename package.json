@@ -1,0 +1,35 @@
+{
+  "name": "@qomponent/qui-icons",
+  "version": "1.0.1-SNAPSHOT",
+  "description": "An Icon component on top of MDI and Font Awesome",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Phillip Kruger <phillip.kruger@phillip-kruger.com> (https://www.phillip-kruger.com)",
+  "homepage": "https://quarkus.io",
+  "license": "Apache-2.0",
+  "main": "qui-icons.js",
+  "module": "qui-icons.js",
+  "type": "module",
+  "keywords": [
+    "qomponent",
+    "Quarkus",
+    "web-components",
+    "icon"
+  ],
+  "scripts": {
+    "start": "web-dev-server --config web-dev-server.config.js"
+  },
+  "dependencies": {
+    "lit": "~3.1.3",
+    "@mdi/svg" : "~7.4.47",
+    "@fortawesome/fontawesome-svg-core" : "~6.5.2",
+    "@fortawesome/free-solid-svg-icons" : "~6.5.2",
+    "@fortawesome/free-brands-svg-icons" : "~6.5.2",
+    "@fortawesome/free-regular-svg-icons" : "~6.5.2"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.4",
+    "es-dev-server": "^1.55.1"
+  }
+}
