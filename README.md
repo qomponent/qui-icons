@@ -1,5 +1,5 @@
 # qui-icons
-All icons from MDI and fontawesome as webcomponents.
+All icons from fontawesome as webcomponents.
 
 ## Installation
 
@@ -25,7 +25,7 @@ Size can be provided with the `size` attribute.
 
 ### Color
 
-Color can be provided with the `color` attribute.
+Color can be provided with the `color` attribute or with CSS.
 
 ### Fontawesome
 
@@ -53,19 +53,6 @@ See [fontawesome.com](https://fontawesome.com/)
 <fab-icon icon="redhat"></fab-icon>
 <fab-icon icon="redhat" size="large"></fab-icon>
 <fab-icon icon="redhat" size="50px" color="#ee0000"></fab-icon>
-```
-
-### MDI
-
-See [mdisearch.com](https://mdisearch.com/)
-
-```html
-<mdi-icon icon="account" size="tiny"></mdi-icon>
-<mdi-icon icon="account" size="small"></mdi-icon>
-<mdi-icon icon="account"></mdi-icon>
-<mdi-icon icon="account" size="large"></mdi-icon>
-<mdi-icon icon="account" size="50px" color="red"></mdi-icon>
-
 ```
 
 ## Example

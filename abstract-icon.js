@@ -8,7 +8,9 @@ class AbstractIcon extends LitElement {
     
     static styles = css`
         :host {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             --icon-size: 24px;
             --icon-color: currentColor;
         }
@@ -16,8 +18,8 @@ class AbstractIcon extends LitElement {
             width: var(--icon-size);
             height: var(--icon-size);
             fill: var(--icon-color);
-        }
-    `;
+            /* vertical-align: middle; */
+        }`;
 
     static properties = {
         icon: {type: String},
