@@ -17,7 +17,9 @@ class FontAwesomeIcon extends AbstractIcon {
     _updateIcon() {
         const faIcon = icon({ prefix: this.prefix(), iconName: this.icon });
         if (faIcon) {
-          this._svgContent = faIcon.html[0].replace(/fill="[^"]*"/g, '');
+          let svgHtml = faIcon.html[0].replace(/fill="[^"]*"/g, '');
+          svgHtml = svgHtml.replace('/viewBox="([^"]+)"/', 'viewBox="0 0 24 24"');
+          this._svgContent = svgHtml;
           this.updateSize();
           this.updateColor();
           this.requestUpdate();
