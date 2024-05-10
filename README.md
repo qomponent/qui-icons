@@ -1,4 +1,4 @@
-# qui-icon
+# qui-icons
 All icons from MDI as webcomponents. See https://pictogrammers.com/library/mdi/
 
 ## Installation
